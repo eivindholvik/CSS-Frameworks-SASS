@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: $colour-background;
+    font-family: "open sans", sans-serif;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    flex: 1 0 auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        margin: 0.5em;
+        max-width: 250px;
+    }
+}

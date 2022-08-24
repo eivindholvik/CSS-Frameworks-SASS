@@ -1,0 +1,22 @@
+.footer {
+    padding: 1em 1.5em;
+    background: $colour-primary;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    color: $colour-secondary;
+}
+
+.legal-links {
+
+    &__link {
+        color: white;
+        text-decoration: none;
+    }
+
+    &__link:hover {
+        color: lighten($colour-secondary, 10%);
+    }
+}

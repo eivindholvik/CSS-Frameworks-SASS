@@ -1,0 +1,14 @@
+.email-form {
+
+    &__input {
+        height: 30px;
+    }
+
+    &__button {
+        background: $colour-secondary;
+        color: white;
+        height: 30px;
+        border: none;
+    }
+
+}
